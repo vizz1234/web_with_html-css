@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #333;
+
+}
+.container
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.img
+{
+    width: 240px;
+    height: 400px;
+    background: black;
+    display: inline-block;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 2s;
+}
+.img:hover{
+    background-position: bottom center;
+}
+.img1
+{
+    background-image: url(arturs-kipsts-1372747-unsplash.jpg);
+}
+.img2
+{
+    background-image: url(izuddin-helmi-adnan-581757-unsplash.jpg)
+}
+.img3
+{
+    background-image: url(dan-gentile-1369457-unsplash.jpg);
+}
